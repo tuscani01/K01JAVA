@@ -62,7 +62,7 @@ public class E01StaticModifier
 		 */
 		MyStatic.staticVar = 200;
 		System.out.println("MyStatic.staticVar="+
-				System.out.println(MyStatic.staticVar);
+		System.out.println(MyStatic.staticVar);
 		/*
 		 방법2: 인스턴스변수처럼 참조변수 통해 접근
 		 단 이경우 정적변수 인스턴스변수로 착각할수있으며 권장하지않는다

@@ -18,7 +18,9 @@ public class RockPaperScissorsGame
 		catch (WrongNumberException e) {
 			//개발자 정의한 예외클래스의 에러메세지 출력
 			System.out.println(e.getMessage());
+			   
+			}
+			
 		}
 	}
-
 }
